@@ -8,20 +8,20 @@ Human Activity Recognition (HAR) is a complex task that involves identifying and
 #### Feature Learning: GCNs learn meaningful features by aggregating information from neighboring nodes in the graph, capturing the interdependence of body parts.
 #### Spatio-Temporal Information: GCNs can effectively capture both spatial relationships between body parts (e.g., joint angles) and temporal dependencies within the action sequence (e.g., movement order).
 ## How GCNs Work for HAR
-#### Data Preprocessing
+#### Data Preprocessing: 
 Sensor data (e.g., accelerometer, gyroscope) is preprocessed and converted into a graph representation.
-#### Graph Convolution 
+#### Graph Convolution: 
 GCN layers process the graph data by aggregating information from neighboring nodes, capturing the complex relationships between body parts.
-#### Feature Extraction
+#### Feature Extraction: 
 GCNs learn relevant features from the graph, such as joint movements, body postures, and motion patterns.
-#### Classification 
+#### Classification: 
 Extracted features are fed into a classifier (e.g., softmax) to predict the human activity.
 ### Advantages of GCNs for HAR
-#### Effective Representation
+#### Effective Representation:
 GCNs naturally capture the complex relationships between body parts.
-#### Incorporates Spatial and Temporal Information 
+#### Incorporates Spatial and Temporal Information:
 GCNs handle both spatial and temporal dependencies in human movement.
-#### Robustness 
+#### Robustness:  
 GCNs can be less sensitive to variations in data, such as noise or missing data.
 ### Challenges and Future Directions
 While GCNs show promise for HAR, there are areas for further exploration:
